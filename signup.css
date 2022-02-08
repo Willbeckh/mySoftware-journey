@@ -1,3 +1,31 @@
 .container{
+    display: flex;
+
+}
+
+.form{
     margin-top: 50px;
+    margin-left: 100px;
+}
+.FullName{
+    width: 350px;
+}
+
+.Email{
+    width: 350px;
+
+}
+
+.Password{
+    width: 350px;
+}
+
+.ConfirmPassword{
+    width: 350px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
 }
