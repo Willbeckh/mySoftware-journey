@@ -1,0 +1,10 @@
+body{
+    margin: 30px;
+}
+
+.header{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
