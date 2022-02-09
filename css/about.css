@@ -8,8 +8,7 @@
  .container-fluid{
      height:60vh;
      width: 100%;
-    
-     position: relative;
+    position: relative;
     
     
    
@@ -25,7 +24,7 @@ height: 400px;
  }
 
  .container-fluid .about p{
-     color:#fe6b40;
+     color:black;
      
  }
 
@@ -37,49 +36,64 @@ height: 400px;
  }
 
 
- .container{
-     height: 55vh;
+ #overlapping{
+     text-align: center;
+     height: 60vh;
      width:50%;
      position: absolute;
      left: 50%;
      top:85%;
      transform: translate(-50%, -50%);
+     border-radius:50px;
+     border-radius: 50px;
+     background: #e0e0e0;
+     box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    
     
 
+
+ }#c8c8c8
+
+
+ #img1{
+     background-image: url("../assets/climb-removebg-preview.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
  }
+
+
+/* partner section */
+#partners{
+    position:absolute;
+    height: 30vh;
+    width:100%;
+    margin-top:33%;
+}
+
+
+ 
+
+ 
 
  .container .row p{
      font-size: .8rem;
  }
- .container1-fluid{
-  
-    position:absolute;
-     height: 30vh;
-     width:100%;
-     margin-top:30%;
- }
+ 
 
- .container1-fluid .icons{
-    
-   
-    display: flex;
-    justify-content: space-evenly;
-    /* padding: 0.3rem; */
-    text-align: center;
-   
-     
- }
 
  
 
  #logo{
+     margin-top: 50px;
     height: 30%;
     justify-content: space-evenly;
     display: flex;
     /* padding: 0.2rem; */
    
 }
- #logo  .imgIbm{
+ #logo  .logopartners{
      height:100%;
      width:30%;
      text-align: center;
@@ -90,28 +104,30 @@ height: 400px;
 
  }
 
- #logo  .imgIbm img{
+ #logo  .logopartners img{
      height: 100%;
      width:100%;
      object-fit: contain;
 
  }
 
- .container2-fluid{
-  
-    position:absolute;
-     height: 50vh;
-     width:100%;
-     margin-top:50%;
-     
- }
+ 
 
  .comment{
      font-size: 12px;
 }
 
-.container {
-    margin-top: 80px
+
+
+
+
+
+/* testimonials */
+
+#testimonials  {
+    margin-top: 50%;
+    /* background-color: #02c6e9; */
+    background-image: linear-gradient(190deg,rgb(173,181,189),#02c6e9);
 }
 
 .container .col-lg-4 {
