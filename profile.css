@@ -117,4 +117,26 @@ a[aria-expanded="true"] {
 }
 
 
+/*Start of form section*/
+#user-form {
+    display: none;
+    padding-right: 4em;
+}
+
+.form-group1 {
+    margin-top: 7em;
+    background-color: #7386D5;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.form-group1 h5 {
+    margin-bottom: 2em;
+}
+
+.form-check {
+    margin-bottom: 2em;
+}
+
+
 
