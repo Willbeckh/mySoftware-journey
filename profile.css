@@ -10,3 +10,15 @@ a, a:hover {
     text-decoration: none;
     transition: all 0.3s;
 }
+
+#sidebarCollapse {
+    margin-bottom: 1em;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+    font-weight: 400;
+}
+
