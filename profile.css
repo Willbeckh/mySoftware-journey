@@ -138,5 +138,16 @@ a[aria-expanded="true"] {
     margin-bottom: 2em;
 }
 
+/*course-cards section*/
+
+#courses {
+    display: none;
+}
+
+.course-cards {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
