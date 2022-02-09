@@ -46,3 +46,13 @@ a, a:hover {
     background: #6d7fcc;
 }
 
+#sidebar ul.container {
+    padding: 20px 5px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
