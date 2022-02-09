@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-profile-page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/css/profile.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <!--Start of sidebar-->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3 class="navbar-brand">myjourney</h3>
+            </div>
+            <ul class="list-unstyled container">
+                <li class="active">
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">COURSES</a>
+                </li>
+                <li>
+                    <a href="#">SERVICES</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+            <button class="btn btn-primary log-out">LOG OUT</button>
+        </nav>
+
+        <!--Start of page content-->
+        <div id="content">
+            <div class="container content-middle-section">
+                <div class="intro">
+                    <div class="media-image">
+                        <img src="https://res.cloudinary.com/mhmd/image/upload/v1556074849/avatar-1_tcnd60.png"
+                            alt="..." width="75" class="mr-3 rounded-circle img-thumbnail shadow-sm">
+                    </div>
+                    <div class="media-text">
+                        <h4>Hello John Doe</h4>
+                        <p>Happy coding journey.</p>
+                    </div>
+                </div>
+                <div class="explainer">
+                    <h3>Learn skills for In-Demand jobs</h3>
+                    <ul>
+                        <li>Our learning paths are organized sequentially to take you step-by-step through each skill area.</li>
+                        <li>Watch the short demo video to familiarize yourself with what to expect.</li>
+                        <li>Start your career path by checking on the form what your interests are.</li>
+                        <li>It is never too late to start...</li>
+                    </ul>
+                    <button class="btn btn-primary">WATCH DEMO</button>
+                </div>
+                <div class="start-journey-button">
+                    <button class="btn-5 btn btn-primary">Start Learning Path</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Start of career path form-->
+        <div class="container" id="user-form">
+            <form class="form-group1">
+                <h5>Data submitted after checking the boxes will be used to generate your career path</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        HTML
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        CSS
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        JAVASCRIPT
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        PYTHON
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        SQL
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        JAVA
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        SQL Programing
+                    </label>
+                </div>
+                <button type="button" class="btn btn-primary">SUBMIT</button>
+            </form>
+        </div>
+        <!--Start of course cards-->
+        <div class="container" id="courses">
+            <div class="course-cards">
+                <div class="card-container1">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/code.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming Basics</h5>
+                            <p class="card-text">Gain the core knowledge to begin programming in any language. We will
+                                explore the core concepts and structure of programming languages and helps you grasp
+                                whatever is going on under the hood.</p>
+                            <a href="#" class="btn btn-primary">Watch Course</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/code.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Databases</h5>
+                            <p class="card-text">Once you get beyond basic programming, you'll need a database.
+                                Databases
+                                provide a consistent, organized structure for storing and retrieving large amounts of
+                                data.
+                            </p>
+                            <a href="#" class="btn btn-primary">Watch Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/code.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML Essentials</h5>
+                            <p class="card-text">In this course, learn how to craft excellent HTML with the pieces that
+                                HTML itself has to offer.Hypertext Markup Language (HTML) is the foundation of website
+                                and web application development.
+                            </p>
+                            <a href="#" class="btn btn-primary">Watch Course</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/code.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS Essentials</h5>
+                            <p class="card-text">Cascading Style Sheets (CSS) is a stylesheet language that allows you
+                                to
+                                control the appearance of your webpages.
+                            </p>
+                            <a href="#" class="btn btn-primary">Watch Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/code.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Essentials</h5>
+                            <p class="card-text">JavaScript is a scripting language of the web. Learn how it is now
+                                becoming
+                                an integral part of the web, infusing every layer with its script.
+                            </p>
+                            <a href="#" class="btn btn-primary">Watch Course</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/code.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Learn Python</h5>
+                            <p class="card-text">Python—the popular and highly readable object-oriented language—is both
+                                powerful and relatively easy to learn.
+                            </p>
+                            <a href="#" class="btn btn-primary">Watch Course</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Start of js section-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
