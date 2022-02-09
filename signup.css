@@ -72,11 +72,15 @@ h2{
 }
 
 button{
-    padding-left: 50px;
+    margin-left: 50px;
 
 }
 
 .login{
     padding-left: 50px;
     padding-top: 15px;
+    display: block;
+}
+.login span{
+    color: blue;
 }
