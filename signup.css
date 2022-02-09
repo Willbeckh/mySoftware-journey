@@ -2,30 +2,76 @@
     display: flex;
 
 }
+body{
+    background-color: linear-gradient(to-right,blue);
+}
+
+h2{
+    padding-left:50px ;
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
 
 .form{
     margin-top: 50px;
     margin-left: 100px;
+    justify-content: center;
+
 }
 .FullName{
     width: 350px;
+    padding-left: 50px;
+    
 }
 
 .Email{
     width: 350px;
+    padding-left: 50px;
+    padding-top: 15px;
+
+
 
 }
 
 .Password{
     width: 350px;
+    padding-left: 50px;
+    padding-top: 15px;
+    
 }
 
 .ConfirmPassword{
     width: 350px;
+    padding-left: 50px;
+    padding-top: 15px;
+    
 }
 
 .image{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 650px;
     padding-top: 50px;
+    
+}
+
+.form{
+    background-color:#E4E1E1;
+    width: 450px;
+    height: 630px;
+}
+
+.TC{
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+button{
+    padding-left: 50px;
+
+}
+
+.login{
+    padding-left: 50px;
+    padding-top: 15px;
 }
