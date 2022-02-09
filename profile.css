@@ -40,3 +40,9 @@ a, a:hover {
     transition: all 0.3s;
 }
 
+#sidebar .sidebar-header {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background: #6d7fcc;
+}
+
