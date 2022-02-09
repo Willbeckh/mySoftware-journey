@@ -56,3 +56,24 @@ a, a:hover {
     display: block;
 }
 
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #5617a8;
+}
+
+.log-out {
+    margin: 0.5em;
+} 
+
