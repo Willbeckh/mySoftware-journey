@@ -10,6 +10,8 @@ body {
     flex-direction: row;
     width: 100%;
     max-height: 100vh;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./user-profile-image/code.jpeg');
+    /* background-color: #f7fafd; */
 }
 
 /*Start of sidebar section*/
@@ -23,18 +25,11 @@ a, a:hover {
     margin-bottom: 1em;
 }
 
-.navbar-btn {
-    box-shadow: none;
-    outline: none !important;
-    border: none;
-    font-weight: 400;
-}
-
 #sidebar {
     min-width: 250px;
     max-width: 250px;
     height: 100vh;
-    background-image: radial-gradient(circle, #f99738, #f69730, #f29628, #ef961e, #eb9612);
+    background: #5f4c4c;
     color: #fff;
     transition: all 0.3s;
 }
@@ -42,7 +37,7 @@ a, a:hover {
 #sidebar .sidebar-header {
     text-align: center;
     padding: 20px 0 20px 0;
-    background: linear-gradient(to top, #f99738, #f69930, #f39b28, #ef9d1e, #eb9f12);
+    background: #5f4c4c;
     box-shadow: -2px 1px 5px 0px rgba(20,20,20,0.75);
 }
 
@@ -62,7 +57,7 @@ a, a:hover {
 }
 
 #sidebar ul li a:hover {
-    color: #EBA912;
+    color: #4c3c3c;
     background: #fff;
 }
 
@@ -75,7 +70,7 @@ a, a:hover {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #EBA912;
+    background: #4c3c3c;
 }
 
 .log-out {
@@ -104,11 +99,17 @@ a[aria-expanded="true"] {
 .media-text {
     line-height: 0.5em;
     padding: 0.6em 0 0 1em;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: rgb(224, 203, 203);
 }
 
 .explainer {
     margin-top: 3em;
     line-height: 2.75em;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: white;
     /*text-align: center;*/
 }
 
@@ -125,7 +126,7 @@ a[aria-expanded="true"] {
 
 /*Start of form section*/
 #user-form {
-    display: non;
+    display: none;
     padding: 4em;
     width: 100%;
 }
@@ -149,7 +150,7 @@ a[aria-expanded="true"] {
 
 /*course-cards section*/
 #courses {
-    display: none;
+    display: non;
 }
 
 .course-cards {
