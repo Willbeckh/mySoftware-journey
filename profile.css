@@ -77,3 +77,9 @@ a[aria-expanded="true"] {
     margin: 0.5em;
 } 
 
+/*Start of middle section*/
+#content {
+    max-height: 100vh;
+    width: 100%;
+} 
+
