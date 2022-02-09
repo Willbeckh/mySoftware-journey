@@ -34,7 +34,7 @@ a, a:hover {
     min-width: 250px;
     max-width: 250px;
     height: 100vh;
-    background: #7386D5;
+    background-image: radial-gradient(circle, #f99738, #f69730, #f29628, #ef961e, #eb9612);
     color: #fff;
     transition: all 0.3s;
 }
@@ -42,7 +42,7 @@ a, a:hover {
 #sidebar .sidebar-header {
     text-align: center;
     padding: 20px 0 20px 0;
-    background: #6d7fcc;
+    background: linear-gradient(to top, #f99738, #f69930, #f39b28, #ef9d1e, #eb9f12);
 }
 
 #sidebar ul.container {
@@ -56,7 +56,7 @@ a, a:hover {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #EBA912;
     background: #fff;
 }
 
@@ -69,7 +69,7 @@ a, a:hover {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #5617a8;
+    background: #EBA912;
 }
 
 .log-out {
