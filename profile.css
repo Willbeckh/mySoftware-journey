@@ -100,4 +100,21 @@ a[aria-expanded="true"] {
     padding: 0.6em 0 0 1em;
 }
 
+.explainer {
+    margin-top: 3em;
+    line-height: 2.75em;
+    /*text-align: center;*/
+}
+
+.start-journey-button {
+    margin-top: 5em;
+    /*text-align: center;*/
+}
+
+.btn-5{
+    padding: 1em 2em;
+    font-weight: 500;
+}
+
+
 
