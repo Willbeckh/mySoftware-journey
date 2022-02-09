@@ -83,3 +83,11 @@ a[aria-expanded="true"] {
     width: 100%;
 } 
 
+content-middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.3em 3em;
+}
+
+
