@@ -5,27 +5,96 @@
   }
   
 
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+  /*Start of sidebar section*/
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebarCollapse {
+    margin-bottom: 1em;
+}
+
+#sidebar {
+    min-width: 60px;
+    max-width: 250px;
+    height: 100vh;
+    background: #5f4c4c;
+    color: #fff;
+    transition: all 0.3s;
+
+    position: fixed;
+}
+
+#sidebar .sidebar-header {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background: #5f4c4c;
+    box-shadow: -2px 1px 5px 0px rgba(20,20,20,0.75);
+}
+
+.sidebar-header h3 {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+#sidebar ul.container {
+    padding: 20px 5px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #4c3c3c;
+    background: #fff;
+}
+
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #4c3c3c;
+}
+
+.log-out {
+    margin: 0.5em;
+}
+/* end of navbar secition */
+
  .container-fluid{
      height:60vh;
      width: 100%;
     position: relative;
-    
-    
-   
-
  }
- .container-fluid img {
-height: 400px;
- width: 100%;
- object-fit: cover;
- object-position: center;
 
+ .container-fluid .banner-img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 
+    position: absolute;
+    top: 0;
+    z-index: -1;
  }
 
  .container-fluid .about p{
      color:black;
-     
  }
 
 
@@ -49,15 +118,12 @@ height: 400px;
      background: #e0e0e0;
      box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
-    
-    
 
-
- }#c8c8c8
+ }
 
 
  #img1{
-     background-image: url("../assets/climb-removebg-preview.png");
+     /* background-image: url("../assets/climb-removebg-preview.png"); */
      background-repeat: no-repeat;
      background-position: center;
      background-size: contain;
@@ -73,18 +139,10 @@ height: 400px;
 }
 
 
- 
-
- 
-
  .container .row p{
      font-size: .8rem;
  }
  
-
-
- 
-
  #logo{
      margin-top: 50px;
     height: 30%;
@@ -97,11 +155,6 @@ height: 400px;
      height:100%;
      width:30%;
      text-align: center;
-    
-     
-    
-     
-
  }
 
  #logo  .logopartners img{
@@ -111,15 +164,9 @@ height: 400px;
 
  }
 
- 
-
  .comment{
      font-size: 12px;
 }
-
-
-
-
 
 
 /* testimonials */
