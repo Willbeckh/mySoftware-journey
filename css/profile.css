@@ -25,13 +25,10 @@ a, a:hover {
 }
 
 #sidebar {
-<<<<<<< HEAD:css/profile.css
-    min-width: 60px;
-    max-width: 250px;
-=======
+    /* min-width: 60px;
+    max-width: 250px; */
     min-width: 90px;
     max-width: 90px;
->>>>>>> ed7fa68ad652482d33dff83cbaa22e62e9d21bed:profile.css
     height: 100vh;
     background: rgba(64,200,243,0.5);
     color: #fff;
