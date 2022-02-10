@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(120deg, #FFFFFF 54%, #40C8F3 40%);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    font-weight: bold;
+    /* padding: 8rem; */
+    /* margin: 2rem; */
+    background-color: red;
+    margin: 2rem;
+    position: relative;
+    top: 0;
+    align-self: start;
+}
+
+
+#aside-main {
+    width: 50%;
+    padding: 8rem;
+    margin: 2 rem; 
+    letter-spacing: normal;
+}
+#aside-main h1{
+    margin: 2rem;
+    font-family: 'Rowdies', cursive;
+}
+#aside-main p {
+    margin: 2rem;
+    font-size: 1.2em;
+}
+#aside-main a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #40C8F3;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2rem;
+}
+
+#right-side-content img {
+    margin-top: 8rem;
+    /* height: 100%; */
+    /* background: linear-gradient(to bottom, red, green); */
+}
