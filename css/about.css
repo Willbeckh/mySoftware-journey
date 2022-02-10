@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+ .container-fluid{
+     height:60vh;
+     width: 100%;
+    position: relative;
+    
+    
+   
+
+ }
+ .container-fluid img {
+height: 400px;
+ width: 100%;
+ object-fit: cover;
+ object-position: center;
+
+
+ }
+
+ .container-fluid .about p{
+     color:black;
+     
+ }
+
+
+ .container-fluid .about{
+     position: absolute;
+     top:40%;
+     left:15%;
+ }
+
+
+ #overlapping{
+     text-align: center;
+     height: 60vh;
+     width:50%;
+     position: absolute;
+     left: 50%;
+     top:85%;
+     transform: translate(-50%, -50%);
+     border-radius:50px;
+     border-radius: 50px;
+     background: #e0e0e0;
+     box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    
+    
+
+
+ }#c8c8c8
+
+
+ #img1{
+     background-image: url("../assets/climb-removebg-preview.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+ }
+
+
+/* partner section */
+#partners{
+    position:absolute;
+    height: 30vh;
+    width:100%;
+    margin-top:33%;
+}
+
+
+ 
+
+ 
+
+ .container .row p{
+     font-size: .8rem;
+ }
+ 
+
+
+ 
+
+ #logo{
+     margin-top: 50px;
+    height: 30%;
+    justify-content: space-evenly;
+    display: flex;
+    /* padding: 0.2rem; */
+   
+}
+ #logo  .logopartners{
+     height:100%;
+     width:30%;
+     text-align: center;
+    
+     
+    
+     
+
+ }
+
+ #logo  .logopartners img{
+     height: 100%;
+     width:100%;
+     object-fit: contain;
+
+ }
+
+ 
+
+ .comment{
+     font-size: 12px;
+}
+
+
+
+
+
+
+/* testimonials */
+
+#testimonials  {
+    margin-top: 50%;
+    /* background-color: #02c6e9; */
+    background-image: linear-gradient(190deg,rgb(173,181,189),#02c6e9);
+}
+
+.container .col-lg-4 {
+    display: flex;
+    justify-content: center
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    border: none;
+    background-color: inherit
+}
+
+.card .face {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.06);
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    backface-visibility: hidden;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd
+}
+
+.card .face.front-face,
+.card .face.back-face {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.card .face.front-face .profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover
+}
+
+.card .face.front-face .name {
+    letter-spacing: 2px
+}
+
+.card .face.front-face .designation {
+    font-size: 0.8rem;
+    color: #ddd;
+    letter-spacing: 0.8px
+}
+
+.card:hover .face.front-face {
+    transform: rotateY(180deg)
+}
+
+.card .face.back-face {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.06);
+    transform: rotateY(180deg);
+    padding: 20px 30px;
+    text-align: center;
+    user-select: none
+}
+
+.card .face.back-face .fa-quote-left {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 1.2rem
+}
+
+.card .face.back-face .fa-quote-right {
+    position: absolute;
+    bottom: 35px;
+    right: 25px;
+    font-size: 1.2rem
+}
+
+.card:hover .face.back-face {
+    transform: rotateY(360deg)
+}
+
+@media(max-width: 991.5px) {
+    .col-lg-4 {
+        margin-top: 40px;
+        margin-bottom: 20px
+    }
+}
+
+
