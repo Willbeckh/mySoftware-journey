@@ -1,8 +1,8 @@
 // signup logic
 // store form input using local Storage
-const userName = document.querySelector(".user-name")
+// const userName = document.querySelector(".user-name")
 const userEmail = document.querySelector(".user-email");
-const password = document.querySelector(".password")
+const userPassword = document.querySelector(".password")
 const submitBtn = document.querySelector("#submit");
 
 const cont = document.querySelector('#text');
@@ -14,21 +14,25 @@ submitBtn.addEventListener('click', function(event) {
     event.preventDefault();
 
     // store user input data
-    let key = userName.value;
-    // let email = userEmail.value;
+    let key = userEmail.value;
+    let password = userPassword.value;
 
-    console.log(key);
-    // console.log(email);
-    // function to store data
-    // function storeInput() {
-    //     localStorage.setItem("username", userName.value);
-    //     localStorage.setItem("email", userEmail.value);
-    // }
+    // store default user
+    function store() {
+        let testMail = localStorage.setItem("email", "test@example.com");
+        let passcode = localStorage.setItem("passcode1", "1234");
+    }
 
-    // console.log(storeInput());
+
+    // console.log(key);
+    // console.log(password);
+
+
+    // validate no empty dat submit
+    if(key && password) {
+        localStorage.setItem(key, password);
+        location.replace("/pages/profile.html")
+    }
 
 });
 
-
-
-// validate user input
