@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div id="user-profile-page" class="main-container">
         <!--Start of sidebar-->
         <nav id="sidebar">
             <div class="sidebar-header">
@@ -27,10 +27,10 @@
             </div>
             <ul class="list-unstyled container">
                 <li class="active">
-                    <a href="#"><i class="fas fa-home icon"></i>HOME</a>
+                    <a href="#content"><i class="fas fa-home icon"></i>HOME</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fas fa-book icon"></i>COURSES</a>
+                    <a href="#courses"><i class="fas fa-book icon"></i>COURSES</a>
                 </li>
                 <li>
                     <a href="#"><i class="fas fa-hand-holding-usd icon"></i>SERVICES</a>
@@ -68,10 +68,10 @@
                         <li>Start your career path by checking on the form what your interests are.</li>
                         <li>It is never too late to start...</li>
                     </ul>
-                    <button class="btn btn-primary">WATCH DEMO</button>
+                    <button id="watch-demo-button" class="btn btn-primary">WATCH DEMO</button>
                 </div>
                 <div class="start-journey-button">
-                    <button class="btn-5 btn btn-primary">Start Learning Path</button>
+                    <button id="start-journey-btn" class="btn-5 btn btn-primary">Start Learning Path</button>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
                         SQL Programing
                     </label>
                 </div>
-                <button type="button" class="btn btn-primary">SUBMIT</button>
+                <button type="button" id="submit-form-button" class="btn btn-primary">SUBMIT</button>
             </form>
         </div>
         <!--Start of course cards-->
@@ -226,6 +226,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
     </script>
+
+    <script src="./profile.js"></script>
+
+
+
 
 </body>
 
