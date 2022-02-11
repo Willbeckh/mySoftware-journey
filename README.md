@@ -1,4 +1,4 @@
-# Quiz Board app
+# My Software Journey
 > Creators: Willbeckh, Agnes, Denis, Julia, Flora
 
 ## Table of Contents.
@@ -14,6 +14,7 @@
 the data is then used by the application to outline a career path that the learner need to follow along in order to meet personal expectations.</p>
 The designs were created by each individual members on [figma](https://www.figma.com/file/ubkIGRdJHtFRFWGQR5I0v4/MyJourney-project?node-id=0%3A1)
 <p> The project is deployed to netlify: https://eloquent-bartik-1d7862.netlify.app/index.html </p>
+<p>project video: https://watch.screencastify.com/v/tIPJ9RkkVKT09djB15AQ</p>
 
 ## Installation
  <p>to install this project into your machine</p>
@@ -39,4 +40,4 @@ The designs were created by each individual members on [figma](https://www.figma
 <p>Users can test their understanding of JavaScript using this web application</p>
 The project is under an [MIT](https://opensource.org/licenses/MIT).
 
-<p>Made with <3 by billy<p>
+<p>Made with love<p>
